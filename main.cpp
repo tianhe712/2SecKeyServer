@@ -20,7 +20,6 @@ int main() {
     info.maxNode = 20;
     info.shmKey = 0x55;
 
-
     //2. 构造密钥协商服务端对象
     ServerOperation serverOperation(&info);
 
@@ -32,6 +31,6 @@ int main() {
     cout << "hello server" << endl;
 
     system("pause");
-    std::cout << "Hello, 项目初始化完成World!" << std::endl;
+    std::cout << "Hello, 服务器开始World!" << std::endl;
     return 0;
 }
